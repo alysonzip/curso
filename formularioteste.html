@@ -1,0 +1,42 @@
+<html lang="en"></html>
+
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="processar_formulario.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"  placeholder="Digite seu nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"  placeholder="Digite seu email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha"  placeholder="Digite sua senha" required><br><br>
+
+        <br><br>
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" name="data_nascimento" id="data_nascimento" required><br><br>
+
+        <label for="turno">Turno:</label><br>
+        <input type="radio" name="turno" id="manha" value="manha" >
+        <label for="manha">Manhã</label><br>
+        <input type="radio" name="turno" id="tarde" value="tarde">
+        <label for="tarde">Tarde</label><br>
+        <input type="radio" name="turno" id="noite" value="noite">
+        <label for="noite">Noite</label><br><br>
+        <br><br>
+
+        <label for="color">Escolha a cor:</label>
+        <input type="color" name="color" id="color"><br><br>
+
+        <label for="cidade">Escolha sua cidade:</label>
+        <select name="cidade" id="cidade" required>
+            <option value="">Selecione uma cidade</option>
+            <option value="bh">Belo Horizonte</option>
+            <option value="ctg">Contagem</option>
+            <option value="beti">Betim</option>
+        </select><br><br>
+        <input type="file" name="arquivo" id="arquivo"><br><br>
+
+        <button type="submit">Enviar</button><br><br>
+        <input type="reset" name="reset" id="reset" value="Limpar Campos">
+</body>
