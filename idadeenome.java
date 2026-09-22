@@ -9,7 +9,7 @@ class Main {
         nome = scanner.nextLine();
         System.out.print("Informe sua idade: ");
         idade=scanner.nextInt();
-        if(idade<0){
+        if(idade<=0){
             System.out.println(nome + " sua idade e invalida");
         }
         else if (idade<18){
