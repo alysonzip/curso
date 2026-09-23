@@ -8,7 +8,7 @@ class Main {
             System.out.println("deseja continuar?:  ");
             parada = scanner.next().charAt(0);
             
-        } while (parada != 'N');
+        } while (parada == 'S');
         scanner.close();
         
 
