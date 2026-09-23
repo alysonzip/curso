@@ -2,13 +2,13 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String parada;
+        char parada;
         do{
             
             System.out.println("deseja continuar?:  ");
-            parada = scanner.nextLine();
+            parada = scanner.next().charAt(0);
             
-        } while (parada == "N");
+        } while (parada != 'N');
         scanner.close();
         
 
