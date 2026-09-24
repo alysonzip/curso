@@ -1,4 +1,6 @@
-@import url(https://fonts.google.com/specimen/Montserrat);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 *{
      margin: 0;
@@ -21,7 +23,7 @@ div{
      overflow: hidden;
      padding: 20px;
      box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.829);}
-.corte-img{
+.corte-img{  
 
      position: relative;
      left: 50%;
@@ -33,7 +35,7 @@ div{
      overflow: hidden;
      padding:0%;
      box-shadow:none;
-     transform: rotate(50%);
+     
 }
 .photo{
 
@@ -71,6 +73,8 @@ p{
      font-size: 15px;
      width: 300px;
      height: 50x;
+     font-family: "Montserrat", sans-serif;
+     color:blueviolet;
      background-color: blanchedalmond;
 }
 button{
