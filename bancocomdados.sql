@@ -78,3 +78,4 @@ SELECT*FROM vendedor;
 SELECT*FROM produto;
 SELECT*FROM pedido;
 SELECT*FROM item_pedido;
+
