@@ -78,3 +78,14 @@ SELECT*FROM vendedor;
 SELECT*FROM produto;
 SELECT*FROM pedido;
 SELECT*FROM item_pedido;
+
+---removendo a fk antiga rigida da tabela produto
+--ALTER TABLE produto
+--DROP FOREIGN KEY;
+---removendo a fk antiga rigida da tabela produto
+--ALTER TABLE produto
+--ADD CONSTRAINT fk_produto_categoria
+--FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
+--ON DELETE CASCADE
+--ON UPDATE CASCADE;
+
