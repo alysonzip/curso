@@ -4,6 +4,16 @@ CREATE TABLE categoria (
   CONSTRAINT pk_categoria PRIMARY KEY(id_categoria)
 );
 
+CREATE TABLE produto (
+  id_produto INT AUTO_INCREMENT,
+  nome_compra VARCHAR(100) NOT NULL,
+  preco DECIMAL(10,2) NOT NULL, 
+  id_categoria INT NOT NULL,
+  CONSTRAINT pk_produto PRIMARY KEY (id_produto),
+  CONSTRAINT fk_produto_categoria FOREIGN KEY (id_categoria)
+    REFERENCES categoria(id_categoria) 
+);
+
 CREATE TABLE cliente (
   id_cliente INT AUTO_INCREMENT,
   nome VARCHAR(50) NOT NULL,
@@ -17,16 +27,6 @@ CREATE TABLE vendedor (
   nome VARCHAR(50) NOT NULL,
   comissao DECIMAL(10,2) NOT NULL,
   CONSTRAINT pk_vendedor PRIMARY KEY(id_vendedor) 
-);
-
-CREATE TABLE produto (
-  id_produto INT AUTO_INCREMENT,
-  nome_compra VARCHAR(100) NOT NULL,
-  preco DECIMAL(10,2) NOT NULL, 
-  id_categoria INT NOT NULL,
-  CONSTRAINT pk_produto PRIMARY KEY (id_produto),
-  CONSTRAINT fk_produto_categoria FOREIGN KEY (id_categoria)
-    REFERENCES categoria(id_categoria) 
 );
 
 CREATE TABLE pedido (
@@ -78,4 +78,3 @@ SELECT*FROM vendedor;
 SELECT*FROM produto;
 SELECT*FROM pedido;
 SELECT*FROM item_pedido;
-
