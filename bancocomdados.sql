@@ -81,7 +81,7 @@ SELECT*FROM item_pedido;
 
 ---removendo a fk antiga rigida da tabela produto
 --ALTER TABLE produto
---DROP FOREIGN KEY;
+--DROP FOREIGN KEY fk_produto_categoria;
 ---removendo a fk antiga rigida da tabela produto
 --ALTER TABLE produto
 --ADD CONSTRAINT fk_produto_categoria
