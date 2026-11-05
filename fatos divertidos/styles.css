@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+ 
+  width: 100%;
+  height: 100%;
+ 
+  align-items: center;
+  justify-content:center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+ 
+.titulo{
+  position: relative;
+  font-family: 'Montserrat';
+  left:25%;
+}
+.texto1{
+  position:relative;
+  font-family: 'Montserrat';
+  left:30%;
+  width: 50%;
+  height: 50%;
+ 
+}
+.texto2{
+  position: relative;
+  font-family: 'Montserrat';
+  left:31%;
+  width: 50%;
+  height: 50%; 
+ 
+}
+.texto3{
+  position: relative;
+  font-family: 'Montserrat';
+  left:30%;
+  width: 50%;
+  height: 50%;}
+.texto4{
+  position: relative;
+  font-family: 'Montserrat';
+  left:26%;
+  width: 50%;
+  height: 50%;}
+.texto5{
+  position: relative;
+  font-family: 'Montserrat';
+  left:50%;
+  width: 50%;
+  height: 50%;}
+.texto6{
+  position: relative;
+  font-family: 'Montserrat';
+  left:50%;
+  width: 50%;
+  height: 50%;}
+.texto7{
+  position: relative;
+  font-family: 'Montserrat';
+  left:50%;
+  width: 50%;
+  height: 50%;}
+.texto8{
+  position: relative;
+  font-family: 'Montserrat';
+  left:50%;
+  width: 50%;
+  height: 50%;}
+.texto9{
+  position: relative;
+  font-family: 'Montserrat';
+  left:50%;
+  width: 50%;
+  height: 50%;}
+.texto10{
+  position: relative;
+  font-family: 'Montserrat';
+  left:50%;
+  width: 50%;
+  height: 50%;}
+.title{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:40%;}
+.text{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:25%;
+  }
+.text2{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:21%;
+  }
+.text3{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:20%;
+  }
+.text4{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:19%;
+  }
+.text5{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:18%;}
+.text6{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:17%;
+  }
+.text7{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:21%;
+  }
+.text8{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:22%;
+  }
+.text9{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:23%;
+  }
+.text10{
+  position:relative;
+  background-image: radial-gradient(rgb(255, 255, 255),red,rgb(0, 0, 0));
+  height: 50%;
+  width: 50%;
+  left:26%;
+  }
+ 
